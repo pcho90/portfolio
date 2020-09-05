@@ -2,6 +2,7 @@
 
 $green: #60d17e
 $light-green: #abffc1
+$dark-green: #51b06a
 $white: #fff
 $box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .2)
 $transition: all 200ms ease
@@ -16,3 +17,9 @@ $transition: all 200ms ease
 
 @mixin bold
   font-weight: 600
+
+@mixin transition
+  transition: $transition
+
+@mixin box-shadow
+  box-shadow: $box-shadow

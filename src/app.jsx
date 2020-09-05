@@ -6,7 +6,6 @@ import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
 import Chatter from './assets/chatter.png';
 import aMDB from './assets/amdb.png';
 import foodie from './assets/foodie.png';
-import Chess from './assets/chess.png';
 import YummyDish from './assets/yummy.png';
 
 const App = () => {
@@ -55,11 +54,46 @@ const App = () => {
       <section className='projects'>
         <div className='projects-title'>Projects</div>
         <div className='projects-content'>
-          <img src={Chatter} alt='Chatter' />
-          <img src={aMDB} alt='aMDB' />
-          <img src={foodie} alt='foodie' />
-          <img src={Chess} alt='Chess' />
-          <img src={YummyDish} alt='Yummy Dish' />
+          <div className='project'>
+            <img className='project-image' src={Chatter} alt='Chatter' />
+            <div className='project-content'>
+              <label>Chatter</label>
+              <span className='project-links'>
+                <a href='http://cute-bird.surge.sh/'>LIVE</a>
+                <a href='https://github.com/pcho90/chatter'>GITHUB</a>
+              </span>
+            </div>
+          </div>
+          <div className='project'>
+            <img className='project-image' src={aMDB} alt='aMDB' />
+            <div className='project-content'>
+              <label>aMDB</label>
+              <span className='project-links'>
+                <a href='https://unruffled-curran-775cfe.netlify.app/'>LIVE</a>
+                <a href='https://github.com/pcho90/amdb'>GITHUB</a>
+              </span>
+            </div>
+          </div>
+          <div className='project'>
+            <img className='project-image' src={foodie} alt='foodie' />
+            <div className='project-content'>
+              <label>foodie</label>
+              <span className='project-links'>
+                <a href='https://unruffled-khorana-a6a8a5.netlify.app/'>LIVE</a>
+                <a href='https://github.com/pcho90/foodie'>GITHUB</a>
+              </span>
+            </div>
+          </div>
+          <div className='project'>
+            <img className='project-image' src={YummyDish} alt='Yummy Dish' />
+            <div className='project-content'>
+              <label>Yummy Dish</label>
+              <span className='project-links'>
+                <a href='http://tan-wrench.surge.sh/'>LIVE</a>
+                <a href='https://github.com/pcho90/yummy-dish'>GITHUB</a>
+              </span>
+            </div>
+          </div>
         </div>
       </section>
       {/* <section className='experience'>
