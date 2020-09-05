@@ -62,11 +62,11 @@ const App = () => {
           <img src={YummyDish} alt='Yummy Dish' />
         </div>
       </section>
-      <section className='experience'>
+      {/* <section className='experience'>
         <div className='experience-content'>
           <div className='experience-title'>Experience</div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
