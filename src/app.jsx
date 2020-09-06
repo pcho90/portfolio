@@ -35,7 +35,7 @@ const App = () => {
           <span className='header-links'>
             <a href='#about'>About</a>
             <a href='#projects'>Projects</a>
-            <a href='#home'>Contact</a>
+            <a href='#contact'>Contact</a>
           </span>
         </div>
       </header>
@@ -135,7 +135,7 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className='contact'>
+      <section className='contact' id='contact'>
         <div className='contact-content'>
           <h3>Contact</h3>
           <span className='contact-social'>
