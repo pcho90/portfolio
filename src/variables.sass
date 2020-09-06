@@ -9,8 +9,9 @@ $transition: all 200ms ease
 
 @mixin container
   width: 80%
-  max-width: 1000px
+  max-width: 1100px
   margin: 0 auto
+  padding: 80px 0
 
 @mixin flex
   display: flex
@@ -23,3 +24,20 @@ $transition: all 200ms ease
 
 @mixin box-shadow
   box-shadow: $box-shadow
+
+@mixin social
+  +flex
+
+  a
+    display: flex
+
+    .icon
+      +transition
+      width: 36px
+      margin-right: 20px
+      fill: $white
+      align-items: center
+
+      &:hover
+        cursor: pointer
+        fill: $light-green
