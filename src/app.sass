@@ -6,8 +6,8 @@
     width: 100%
     height: 80px
     background: $green
-    font-size: 20px
     color: $white
+    font-size: 20px
     z-index: 100
 
     .header-logo
@@ -22,14 +22,9 @@
       align-items: center
       justify-content: space-between
 
-      a
-        +transition
-        text-decoration: none
-        color: $white
-        margin: 0 10px
-
-        &:hover
-          color: $light-green
+      .header-links
+        a
+          margin: 0 10px
     
     &.active
       +box-shadow
@@ -42,6 +37,9 @@
 
       a
         color: $green
+
+        &:hover
+          color: $light-green
     
   .hero
     +bold
@@ -130,15 +128,6 @@
 
           .project-content
             visibility: visible
-  
-  .experience
-    background: $green
-
-    .experience-content
-      +container
-
-      h3
-        color: $white
 
   .about
     .about-content
