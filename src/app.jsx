@@ -6,6 +6,8 @@ import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
 import { ReactComponent as InstagramIcon } from './assets/instagram.svg';
 import { ReactComponent as SpotifyIcon } from './assets/spotify.svg';
 import { ReactComponent as MailIcon } from './assets/mail.svg';
+import Logo from './assets/logo.png';
+import LogoInverted from './assets/logo-inverted.png';
 import Chatter from './assets/chatter.png';
 import aMDB from './assets/amdb.png';
 import foodie from './assets/foodie.png';
@@ -29,8 +31,12 @@ const App = () => {
     <div className='app' id='home'>
       <header className={isSticky ? 'active' : ''}>
         <div className='header-content'>
-          <a href='#home' className='header-logo'>
-            Peter Cho
+          <a href='#home'>
+            <img
+              src={isSticky ? LogoInverted : Logo}
+              alt='Peter Cho'
+              className='header-logo'
+            />
           </a>
           <span className='header-links'>
             <a href='#about'>About</a>
