@@ -49,7 +49,7 @@ const App = () => {
         <div className='hero-content'>
           <div className='hero-title'>Hi, I'm Peter.</div>
           <div className='hero-blurb'>
-            I'm a front end developer with a passion for solving problems,
+            I'm a software engineer with a passion for solving problems,
             learning new skills, and improving at existing ones.
           </div>
           <div className='hero-social'>
@@ -66,13 +66,13 @@ const App = () => {
         <div className='about-content'>
           <h3>About Me</h3>
           <p>
-            I'm a front end developer located in New York City. I previously
-            spent four years cooking in fine dining restaurants, but switched
-            over to coding in an effort to find job stability and a better work
-            life balance. I've cooked at Jean-Georges (2 Michelin stars), Per Se
-            (3 Michelin stars), and L'ATELIER de Joël Robuchon (2 Michelin
-            stars). My experience in these kitchens has trained my work ethic,
-            my attention to detail, and my ability to problem solve.
+            I'm a software engineer located in New York City. I previously spent
+            four years cooking in fine dining restaurants, but switched over to
+            coding in an effort to find job stability and a better work life
+            balance. I've cooked at Jean-Georges (2 Michelin stars), Per Se (3
+            Michelin stars), and L'ATELIER de Joël Robuchon (2 Michelin stars).
+            My experience in these kitchens has trained my work ethic, my
+            attention to detail, and my ability to problem solve.
           </p>
           <p>
             Growing up, I've always had an affinity towards anything that I
