@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3632f761.chunk.css",
+    "main.js": "/static/js/main.19bd0c26.chunk.js",
+    "main.js.map": "/static/js/main.19bd0c26.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.b162ca75.chunk.js": "/static/js/2.b162ca75.chunk.js",
+    "static/js/2.b162ca75.chunk.js.map": "/static/js/2.b162ca75.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d2793c2546cf71d84dcd8cd07e7a6712.js": "/precache-manifest.d2793c2546cf71d84dcd8cd07e7a6712.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3632f761.chunk.css.map": "/static/css/main.3632f761.chunk.css.map",
+    "static/js/2.b162ca75.chunk.js.LICENSE.txt": "/static/js/2.b162ca75.chunk.js.LICENSE.txt",
+    "static/media/amdb.png": "/static/media/amdb.948cc11b.png",
+    "static/media/chatter.png": "/static/media/chatter.0efbc559.png",
+    "static/media/foodie.png": "/static/media/foodie.fef08466.png",
+    "static/media/github.1f33e75d.svg": "/static/media/github.1f33e75d.svg",
+    "static/media/instagram.bb026c4d.svg": "/static/media/instagram.bb026c4d.svg",
+    "static/media/linkedin.380d97a6.svg": "/static/media/linkedin.380d97a6.svg",
+    "static/media/logo-inverted.png": "/static/media/logo-inverted.138ed509.png",
+    "static/media/logo.png": "/static/media/logo.8d518e50.png",
+    "static/media/mail.e6956db2.svg": "/static/media/mail.e6956db2.svg",
+    "static/media/spotify.f25eb951.svg": "/static/media/spotify.f25eb951.svg",
+    "static/media/yummy.png": "/static/media/yummy.4740b047.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.b162ca75.chunk.js",
+    "static/css/main.3632f761.chunk.css",
+    "static/js/main.19bd0c26.chunk.js"
+  ]
+}
