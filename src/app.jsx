@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import './app.sass';
+import './app.scss';
 import { ReactComponent as GithubIcon } from './assets/github.svg';
 import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
 import { ReactComponent as InstagramIcon } from './assets/instagram.svg';
