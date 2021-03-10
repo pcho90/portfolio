@@ -20,8 +20,15 @@ const App = () => {
     window.scrollY > 80 ? setSticky(true) : setSticky(false);
   };
 
+  const handleJump = target => {
+    const element = document.querySelector(`#${target}`);
+    const {top} = element.getBoundingClientRect();
+    window.scrollBy({behavior: 'smooth', top: isSticky ? top : top - 80});
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -39,9 +46,9 @@ const App = () => {
             />
           </a>
           <span className='header-links'>
-            <a href='#about'>About</a>
-            <a href='#projects'>Projects</a>
-            <a href='#contact'>Contact</a>
+            <span onClick={() => handleJump('about')}>About</span>
+            <span onClick={() => handleJump('projects')}>Projects</span>
+            <span onClick={() => handleJump('contact')}>Contact</span>
           </span>
         </div>
       </header>
