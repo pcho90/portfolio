@@ -21,7 +21,7 @@ const App = () => {
   };
 
   const handleJump = target => {
-    const element = document.querySelector(`#${target}`);
+    const element = document.querySelector(target);
     const {top} = element.getBoundingClientRect();
     window.scrollBy({behavior: 'smooth', top: isSticky ? top : top - 80});
   };
@@ -38,17 +38,17 @@ const App = () => {
     <div className='app' id='home'>
       <header className={isSticky ? 'active' : ''}>
         <div className='header-content'>
-          <a href='#home'>
+          <span className='link' onClick={() => handleJump('#home')}>
             <img
               src={isSticky ? LogoInverted : Logo}
               alt='Peter Cho'
               className='header-logo'
             />
-          </a>
+          </span>
           <span className='header-links'>
-            <span onClick={() => handleJump('about')}>About</span>
-            <span onClick={() => handleJump('projects')}>Projects</span>
-            <span onClick={() => handleJump('contact')}>Contact</span>
+            <span className='link' onClick={() => handleJump('#about')}>About</span>
+            <span className='link' onClick={() => handleJump('#projects')}>Projects</span>
+            <span className='link' onClick={() => handleJump('#contact')}>Contact</span>
           </span>
         </div>
       </header>

@@ -22,16 +22,19 @@
       align-items: center;
       justify-content: space-between;
 
-      .header-links {
-        span {
-          margin: 0 10px;
-          transition: all 0.2s ease;
-          text-decoration: none;
-          cursor: pointer;
+      .link {
+        transition: all 0.2s ease;
+        text-decoration: none;
+        cursor: pointer;
 
-          &:hover {
-            color: $light-primary;
-          }
+        &:hover {
+          color: $light-primary;
+        }
+      }
+
+      .header-links {
+        .link {
+          margin: 0 10px;
         }
       }
     }
