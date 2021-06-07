@@ -86,7 +86,7 @@ const App = () => {
             found mentally stimulating. I particularly enjoyed strategy games,
             card games, and computer games. As a 10 year old, I often tinkered
             with HTML and Photoshop to build Dragonball Z fan sites (Notepad was
-            my IDE of choice). Shortly after enrolling in General Assembly's
+            my editor of choice). Shortly after enrolling in General Assembly's
             Software Engineering Immersive, my passion for coding was rekindled,
             as I quickly rediscovered the gratification that I gain from
             analyzing and solving coding problems.
